@@ -1,6 +1,6 @@
 # revil-ransomware-analysis
 DFIR investigation of a simulated REvil/Sodinokibi ransomware incident using Redline, Hybrid Analysis, and VirusTotal  includes filesystem triage, IOC extraction, and MITRE ATT&amp;CK mapping.
-# REvil Ransomware — DFIR Investigation (LetsDefend Challenge)
+# REvil Ransomware DFIR Investigation (LetsDefend Challenge)
 
 ## Overview
 
@@ -28,7 +28,7 @@ Opening the `.mans` file in Redline and navigating to **System Information**, th
 
 **Windows 7 Professional, 7601, Service Pack 1 (64-bit)**
 Machine name: `WIN-CH23QIC2OMH`
-"C:\Users\rehan\Pictures\Screenshots\Screenshot 2026-09-24 141813.png"
+<img width="377" height="357" alt="Screenshot 2026-09-24 141813" src="https://github.com/user-attachments/assets/26393459-47c5-4d1a-932f-32b54379bf95" />
 
 ---
 ## Q2: What is the logged-in user while the Redline image was being collected?
