@@ -36,7 +36,7 @@ Machine name: `WIN-CH23QIC2OMH`
 Under **User Information** in Redline, the active user profile is:
 
 **SecurityNinja**
-"C:\Users\rehan\Pictures\Screenshots\Screenshot 2026-09-28 213940.png"
+<img width="343" height="80" alt="Screenshot 2026-09-28 213940" src="https://github.com/user-attachments/assets/c7e2df9a-f914-4397-9f9e-510c4dbee4a0" />
 
 ---
 ## Q3: What is the location of the ransomware on the filesystem?
@@ -52,7 +52,7 @@ The file properties show `bad day.exe` (136 KB) was created at `2021-07-31 20:06
 just seconds after the ransom note `993ixjlb-readme.txt` was created at `20:06:04Z`.
 This timestamp correlation is consistent with the malware dropping its ransom note
 immediately upon execution.
-"C:\Users\rehan\Pictures\Screenshot 2026-09-24 142218.png"
+<img width="504" height="391" alt="Screenshot 2026-09-24 142218" src="https://github.com/user-attachments/assets/cb9fe79d-3fd3-472f-9151-6368c8b2db04" />
 
 ---
 ## Q4: What is the MD5 hash of the ransomware?
@@ -64,7 +64,7 @@ section lists:
 
 This hash was cross-referenced against Hybrid Analysis / VirusTotal to confirm
 malicious classification.
-"C:\Users\rehan\Pictures\Screenshots\Screenshot 2026-09-24 142708.png"
+<img width="513" height="392" alt="Screenshot 2026-09-24 142708" src="https://github.com/user-attachments/assets/9d680ba0-eda6-41f2-a010-e4ba738f600a" />
 
 ---
 ## Q5: What is the extension used on encrypted files?
@@ -74,7 +74,7 @@ The ransom note dropped on the system (`993ixjlb-readme.txt`) states directly:
 files themselves in Redline's File System view (e.g. `Wildlife.wmv.993ixjlb`).
 
 **Extension: `.993ixjlb`**
-"C:\Users\rehan\Pictures\Screenshots\Screenshot 2026-09-28 215107.png"
+<img width="142" height="11" alt="Screenshot 2026-09-28 215107" src="https://github.com/user-attachments/assets/f0ded044-ec97-48a4-b639-a5518a1f816f" />
 
 ---
 ## Q6: What is the onion (Tor) website for paying the ransom?
@@ -82,7 +82,7 @@ files themselves in Redline's File System view (e.g. `Wildlife.wmv.993ixjlb`).
 From the ransom note's payment instructions section:
 
 **`http://aplebzu47wgazapdqks6vrcv6zcnjppkbxbr6wketf56nf6aq2nmyoyd.onion/4FE49B3286F992CB`**
-"C:\Users\rehan\Pictures\Screenshots\Screenshot 2026-09-28 215618.png"
+<img width="830" height="110" alt="Screenshot 2026-09-28 215618" src="https://github.com/user-attachments/assets/3a67cfe6-b405-4338-a446-c711527a5dfb" />
 
 ---
 
@@ -91,7 +91,7 @@ From the ransom note's payment instructions section:
 Provided in the same note as a fallback if Tor is inaccessible:
 
 **`http://decoder.re/4FE49B3286F992CB`**
-"C:\Users\rehan\Pictures\Screenshots\Screenshot 2026-09-28 215957.png"
+<img width="952" height="107" alt="Screenshot 2026-09-28 215957" src="https://github.com/user-attachments/assets/d8a950c9-3a49-47ba-8caf-9a62e83443b3" />
 
 ---
 ## Q8: What child command-line process is executed after the ransomware runs?
@@ -105,7 +105,7 @@ spawns a `netsh.exe` child process running:
 This enables the "Network Discovery" firewall rule group — a known REvil/Sodinokibi
 behavior that allows the malware to scan the local network for additional hosts and
 shares to reach for lateral movement/encryption. 
-"C:\Users\rehan\Pictures\Screenshots\Screenshot 2026-09-24 145200.png"
+<img width="502" height="124" alt="Screenshot 2026-09-24 145200" src="https://github.com/user-attachments/assets/ada75231-a47b-4f6e-bbbb-5fcf534f61f9" />
 
 ---
 ## Q9: What is the MITRE ATT&CK technique ID for this ransomware's impact stage?
@@ -116,6 +116,6 @@ MITRE ATT&CK mapping, two techniques appear under the **Impact (TA0040)** tactic
 behavior is file encryption for ransom. The relevant technique is:
 
 **T1486 — Data Encrypted for Impact**
-"C:\Users\rehan\Pictures\Screenshots\Screenshot 2026-09-28 180550.png"
+<img width="211" height="187" alt="Screenshot 2026-09-28 180550" src="https://github.com/user-attachments/assets/35578eb0-9640-417d-a78c-84bc464e0660" />
 
 ---
